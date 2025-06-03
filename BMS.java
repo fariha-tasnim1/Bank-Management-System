@@ -256,13 +256,25 @@ public class BMS {
             choice = sc.nextInt();
             switch (choice) {
                 case 1:
-                    System.out.print("Enter amount to deposit: ");
-                    double depositAmount = sc.nextDouble();
+                    double depositAmount;
+                    do {
+                        System.out.print("Enter amount to deposit: ");
+                        depositAmount = sc.nextDouble();
+                        if (depositAmount <= 0) {
+                            System.out.println("Invalid amount. Deposit must be greater than zero. Try again.");
+                        }
+                    } while (depositAmount <= 0);
                     customer.deposit(depositAmount);
                     break;
                 case 2:
-                    System.out.print("Enter amount to withdraw: ");
-                    double withdrawAmount = sc.nextDouble();
+                    double withdrawAmount;
+                    do {
+                        System.out.print("Enter amount to withdraw: ");
+                        withdrawAmount = sc.nextDouble();
+                        if (withdrawAmount <= 0) {
+                            System.out.println("Invalid amount. Withdrawal must be greater than zero. Try again.");
+                        }
+                    } while (withdrawAmount <= 0);
                     customer.withdraw(withdrawAmount);
                     break;
                 case 3:
@@ -277,6 +289,7 @@ public class BMS {
         } while (choice != 4);
         sc.nextLine(); // consume newline
     }
+    
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

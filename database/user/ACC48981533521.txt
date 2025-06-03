@@ -1,0 +1,11 @@
+UserID: 00001
+Name: hghhjn
+Phone: 5226266
+DOB: 15666
+NID: 5616565
+Father: vnnvnm
+Mother: vmmhmhk
+Address: mhcdgnnx
+Account: ACC48981533521
+Balance: 5000.0hghhjn opened account at 2025-06-04 02:12:13 with balance: 5000.0
+hghhjn deposited: 500.0 at 2025-06-04 02:13:32

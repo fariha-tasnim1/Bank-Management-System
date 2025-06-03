@@ -1,0 +1,10 @@
+UserID: 00002
+Name: hfbdj
+Phone: 5663+63
+DOB: 5656
+NID: 65626
+Father: gfcnnjh
+Mother: gnnjhjn
+Address: nfhjmnhjmn
+Account: ACC48981569705
+Balance: 2000.0hfbdj opened account at 2025-06-04 02:12:49 with balance: 2000.0
