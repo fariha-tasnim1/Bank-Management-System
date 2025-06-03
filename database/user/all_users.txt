@@ -1,0 +1,11 @@
+UserID: 00001
+Name: ytuhy
+Phone: 566563632
+DOB: 566363
+NID: 45526363
+Father: hhujji
+Mother: ujikokol
+Address: jujuhhg
+Account: ACC48890122702
+Balance: 5000.0
+----------------------
